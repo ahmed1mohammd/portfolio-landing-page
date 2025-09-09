@@ -11,9 +11,9 @@ import './App.css';
 function App() {
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-background text-foreground">
+      <div className="min-h-screen text-foreground">
         <Header />
-        <main>
+        <main className="pt-0 md:pt-20 pb-20 md:pb-0">
           <Hero />
           <About />
           <Skills />

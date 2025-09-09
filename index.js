@@ -1,0 +1,1 @@
+ db.createCollection('Users',{validator:{$and:[{userName:{$type:"string"}}]}})
